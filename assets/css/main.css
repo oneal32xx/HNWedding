@@ -1314,6 +1314,7 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-color: rgba(255, 255, 255, 0.10);
 		}
 
 			#header .logo .icon:before {
@@ -1339,7 +1340,9 @@ input, select, textarea {
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
+				background-color: rgba(255, 255, 255, 0.10);
 				overflow: hidden;
+
 			}
 
 				#header .content .inner > :last-child {
@@ -1368,6 +1371,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				background-color: rgba(255, 255, 255, 0.10);
 			}
 
 				#header nav ul li:first-child {
@@ -1500,6 +1504,8 @@ input, select, textarea {
 					#header nav ul li {
 						border-left: 0;
 						border-top: solid 1px #ffffff;
+						
+
 					}
 
 						#header nav ul li:first-child {
@@ -1564,7 +1570,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(27, 31, 34, 0.75);
 			border-radius: 4px;
 			opacity: 0;
 		}
